@@ -183,7 +183,35 @@ Ce projet montre que, même avec un niveau débutant ou intermédiaire, il est p
 
 ---
 
+## Licence
 
+Le script est publié sous la licence MIT.
+🔒 Avertissement sur les modifications
+
+Ce script est fourni à des fins pédagogiques en l’état.
+
+L’autrice décline toute responsabilité en cas de modification, dérivation ou adaptation du code source.
+
+Toute altération, réutilisation ou redistribution du script se fait sous l’entière responsabilité de l’utilisateur
+
+---
+
+ℹ️ **À propos de l’usage**
+Ce projet est destiné exclusivement à des fins pédagogiques :
+- Formations en cybersécurité
+- Tests d’intrusion légaux (pentests)
+- Analyse ou audit en environnement contrôlé
+
+L’autrice ne cautionne ni n’autorise l’usage, en dehors d’un cadre légal strictement défini.
+Toute utilisation non conforme est interdite et relève de la responsabilité exclusive de l’utilisateur.
+
+---
+
+ **Droits sur les visuels**
+Les visuels, illustrations ou captures présents dans ce dépôt sont la propriété exclusive de l’autrice.
+Toute reproduction ou réutilisation sans autorisation préalable est interdite.
+
+© 2025 Virginie Lechene – Tous droits réservés.
 
 
 
