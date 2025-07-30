@@ -162,8 +162,6 @@ Le script Python s’appuie sur le système d’événements `udev` de Linux pou
 
 ### 📸 Captures d’écran
 
-![Écriture du script `usb_detector.py`](securescript.PNG)
-*Script utilisant la bibliothèque `pyudev` pour écouter les événements matériels*
 
 ![Installation et exécution du script](secure8.PNG)
 *Installation de `pyudev` et lancement du script en attente d’une clé USB*
