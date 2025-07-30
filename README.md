@@ -74,7 +74,13 @@ lsblk
 echo -e "\nPermissions sur les périphériques :"
 ls -l /dev/sd*
 
-📸 Capture : secure3.PNG
+📸 Captures d’écran :
+
+![Contenu du script `usb_devices_info.sh`](securite2.PNG)
+*Affichage du script dans Nano*
+
+![Résultat du script `usb_devices_info.sh`](secure3.PNG)
+*Exécution dans le terminal sous Kali Linux*
 
 ---
 
