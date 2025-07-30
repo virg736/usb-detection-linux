@@ -7,10 +7,16 @@
 <p align="center"><i>Illustration d’un script de détection USB sous Linux</i></p>
 
 <p align="center">
-© 2025 <strong>virg736</strong> – Tous droits réservés.<br>
-Reproduction interdite sans autorisation préalable.
+© 2025 <strong>Virginie Lechene</strong> — Tous droits réservés<br>
+Reproduction interdite sans autorisation préalable.<br>
+Usage pédagogique uniquement.
 </p>
 
+<p align="center">
+<img src="https://licensebuttons.net/l/by-nd/3.0/88x31.png" alt="Creative Commons BY-ND">
+</p>
+
+<p align="center"><strong>Image protégée – Propriété exclusive</strong></p>
 
 
 ## Sommaire
