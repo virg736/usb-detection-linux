@@ -103,7 +103,7 @@ import time
 
 usb_path = "/media/usb_simulation"
 
-print("Surveillance de la 'clé USB simulée'... (Ctrl+C pour quitter)")
+print("Surveillance de la clé USB simulée... (Ctrl+C pour quitter)")
 while True:
 if os.path.exists(usb_path):
 print("Clé USB simulée détectée !")
@@ -120,10 +120,10 @@ chmod +x simulate_usb.py
 ### 📸 Captures d’écran
 
 ![Création du dossier simulant une clé USB](securite6.PNG) 
-*Dossier `/media/usb_simulation` et fichier `test_usb.txt` créés pour simuler une clé USB*
+*Dossier `/media/usb_simulation` et fichier `test_usb.txt` utilisés pour simuler une clé USB*
 
 ![Écriture du script `simulate_usb.py`](securite4.PNG) 
-*Script Python qui surveille l'existence de la "clé USB simulée"*
+*Script Python chargé de détécter la présence de la "clé USB simulée"*
 
 ![Exécution du script `simulate_usb.py`](securite5.PNG) 
 *La clé USB simulée est détectée avec succès par le script*
@@ -159,8 +159,6 @@ Le script Python s’appuie sur le système d’événements `udev` de Linux pou
 
 L’usage des clés USB peut représenter un risque majeur pour la sécurité d’un système, surtout dans des environnements sensibles (entreprises, laboratoires, établissements scolaires, etc.). Voici pourquoi ce projet est important :
 
-
-
 ⚠️ Risques potentiels liés aux clés USB :
 Propagation de malwares (virus, ransomware, chevaux de Troie)
 
@@ -170,11 +168,10 @@ Injection de commandes malveillantes (ex : BadUSB)
 
 Accès non autorisé à des systèmes protégés
 
-Sabotage ou altération de fichiers critiques
+Sabotage et altération de fichiers critiques
 
 
-
-🎯 Objectif du projet :
+Objectif du projet :
 Sensibiliser à ces risques
 
 Apprendre à détecter automatiquement et en temps réel l’insertion d’un périphérique USB
@@ -182,8 +179,9 @@ Apprendre à détecter automatiquement et en temps réel l’insertion d’un p�
 Créer une base pédagogique pour aller plus loin (alertes, blocage, journalisation…)
 
 
+Ce projet montre que, même avec un niveau débutant ou intermédiaire, il est possible de mettre en place une surveillance simple mais efficace.
 
-Ce projet démontre comment, même à un niveau débutant ou intermédiaire, on peut mettre en place une surveillance basique mais efficace.
+---
 
 
 
