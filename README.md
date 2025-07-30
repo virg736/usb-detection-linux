@@ -85,7 +85,7 @@ lsblk
 
 **Objectif** : Simuler l’insertion d’une clé USB en utilisant un dossier comme point de montage.
 
-Ce niveau permet de tester la logique de détection **sans clé USB physique**, en créant une **clé USB virtuelle** (simple dossier).
+Ce niveau permet de tester la logique de détection **sans clé USB physique**, à l'aide d'une **clé USB virtuelle** (un simple dossier).
 
 ---
 
