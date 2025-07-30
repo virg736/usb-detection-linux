@@ -7,7 +7,7 @@
 - [Niveaux du projet](#niveaux-du-projet)
 - [Niveau débutant](#niveau-débutant)
 - [Niveau intermédiaire](#niveau-intermédiaire)
-- [Niveau expert](#niveau-expert)
+- [Niveau expert](#niveau-avancé)
 - [Différence entre simulation et clé réelle](#différence-entre-simulation-et-clé-réelle)
 - [Captures d’écran](#captures-décran)
 - [Utilisation des scripts](#utilisation-des-scripts)
@@ -132,14 +132,29 @@ chmod +x simulate_usb.py
 
 ---
 
-Niveau expert
+### Niveau avancé
 
-Objectif : Détecter en temps réel l’insertion d’une vraie clé USB à l’aide de la bibliothèque pyudev.
+**Objectif** : Détecter en **temps réel l’insertion d’une vraie clé USB** grâce à la bibliothèque `pyudev`.
 
+Contrairement au niveau intermédiaire (clé simulée via dossier), ici le test est réalisé **avec une véritable clé USB physique**, branchée sur la machine.
 
-Script : usb_detector.py
+Le script Python s’appuie sur le système d’événements `udev` de Linux pour intercepter automatiquement toute connexion d’un périphérique USB de stockage.
 
-📸 Captures associées : secure8.PNG, secure9.PNG
+---
+
+### 📸 Captures d’écran
+
+![Écriture du script `usb_detector.py`](securescript.PNG)
+*Script utilisant la bibliothèque `pyudev` pour écouter les événements matériels*
+
+![Installation et exécution du script](secure8.PNG)
+*Installation de `pyudev` et lancement du script en attente d’une clé USB*
+
+![Clé détectée (non montée)](secure9.PNG)
+*Détection effective d’une vraie clé USB physique (ex. : /dev/sdb1)*
+
+![Confirmation graphique](secure1.PNG)
+*La clé est bien connectée : elle apparaît dans les périphériques du système*
 
 ---
 
