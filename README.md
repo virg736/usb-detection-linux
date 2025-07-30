@@ -174,8 +174,6 @@ Le script Python s’appuie sur le système d’événements `udev` de Linux pou
 
 ## Utilisation des scripts
 
-Le script de **niveau avancé** (détection en temps réel d’une clé USB physique) est entièrement intégré dans ce fichier `README.md`, dans la section [Niveau avancé](#niveau-avancé
-
 L’usage des clés USB peut représenter un risque majeur pour la sécurité d’un système, surtout dans des environnements sensibles (entreprises, laboratoires, établissements scolaires, etc.). Voici pourquoi ce projet est important :
 
 ⚠️ Risques potentiels liés aux clés USB :
