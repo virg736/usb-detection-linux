@@ -7,9 +7,7 @@
 - [Niveaux du projet](#niveaux-du-projet)
 - [Niveau débutant](#niveau-débutant)
 - [Niveau intermédiaire](#niveau-intermédiaire)
-- [Niveau expert](#niveau-avancé)
-- [Différence entre simulation et clé réelle](#différence-entre-simulation-et-clé-réelle)
-- [Captures d’écran](#captures-décran)
+- [Niveau avancé](#niveau-avancé)
 - [Utilisation des scripts](#utilisation-des-scripts)
 - [Licence](#licence)
 
@@ -158,62 +156,36 @@ Le script Python s’appuie sur le système d’événements `udev` de Linux pou
 
 ---
 
-Différence entre simulation et clé réelle 
-Critère
-
-Intermédiaire
-
-Expert
+L’usage des clés USB peut représenter un risque majeur pour la sécurité d’un système, surtout dans des environnements sensibles (entreprises, laboratoires, établissements scolaires, etc.). Voici pourquoi ce projet est important :
 
 
 
-Captures d’écran
+⚠️ Risques potentiels liés aux clés USB :
+Propagation de malwares (virus, ransomware, chevaux de Troie)
+
+Vol de données sensibles (exfiltration par simple copier-coller)
+
+Injection de commandes malveillantes (ex : BadUSB)
+
+Accès non autorisé à des systèmes protégés
+
+Sabotage ou altération de fichiers critiques
 
 
-Les captures se trouvent dans le dossier /captures/ du projet :
 
-secure3.PNG – Affichage des périphériques (débutant)
+🎯 Objectif du projet :
+Sensibiliser à ces risques
 
-securite4.PNG, securite5.PNG, securescript.PNG – Simulation clé USB (intermédiaire)
+Apprendre à détecter automatiquement et en temps réel l’insertion d’un périphérique USB
 
-secure8.PNG, secure9.PNG – Détection réelle (expert)
-
-Utilisation des scripts
+Créer une base pédagogique pour aller plus loin (alertes, blocage, journalisation…)
 
 
-Prérequis
-Python 3 installé
 
-Installer pyudev pour le niveau expert :
-
-pip install pyudev
-
-Lancer les scripts
-# Débutant
-bash usb_devices_info.sh
-
-# Intermédiaire
-python3 simulate_usb.py
-
-# Expert
-python3 usb_detector.p
-
-# Débutant
-bash usb_devices_info.sh
-
-# Intermédiaire
-python3 simulate_usb.py
-
-# Expert
-python3 usb_detector.py
+Ce projet démontre comment, même à un niveau débutant ou intermédiaire, on peut mettre en place une surveillance basique mais efficace.
 
 
-Licence
 
-
-Projet libre pour usage pédagogique, personnel ou en formation.
-
-Aucune responsabilité n’est engagée en cas d’utilisation en environnement professionnel sans validation sécurité
 
 
 
