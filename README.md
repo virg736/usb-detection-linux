@@ -82,11 +82,53 @@ lsblk
 
 ---
 
-Niveau intermédiaire
+### Niveau intermédiaire
 
-Objectif : Simuler la connexion d’une clé USB en utilisant un dossier comme point de montage surveillé.
+**Objectif** : Simuler l’insertion d’une clé USB en utilisant un dossier comme point de montage.
 
-Script : simulate_usb.py
+Ce niveau permet de tester la logique de détection **sans clé USB physique**, en créant une **clé USB virtuelle** (simple dossier).
+
+---
+
+###  Étapes réalisées
+
+1. Création d’un dossier simulant une clé USB :
+bash
+mkdir -p /media/usb_simulation
+touch /media/usb_simulation/test_usb.txt
+
+Création du script simulate_usb.py :
+
+import os
+import time
+
+usb_path = "/media/usb_simulation"
+
+print("Surveillance de la 'clé USB simulée'... (Ctrl+C pour quitter)")
+while True:
+if os.path.exists(usb_path):
+print("Clé USB simulée détectée !")
+break
+time.sleep(1)
+
+chmod +x simulate_usb.py
+./simulate_usb.py
+
+---
+
+**"J'ai créé une clé USB virtuelle, un script de détection, et je l'ai testé dans le terminal."**
+
+### 📸 Captures d’écran
+
+![Création du dossier simulant une clé USB](securite6.PNG) 
+*Dossier `/media/usb_simulation` et fichier `test_usb.txt` créés pour simuler une clé USB*
+
+![Écriture du script `simulate_usb.py`](securite4.PNG) 
+*Script Python qui surveille l'existence de la "clé USB simulée"*
+
+![Exécution du script `simulate_usb.py`](securite5.PNG) 
+*La clé USB simulée est détectée avec succès par le script*
+
 
 ---
 
