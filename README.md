@@ -1,5 +1,18 @@
 #  Détection et Surveillance des Clés USB sous Linux
 
+<p align="center">
+<img src="linuxusb.PNG" alt="Illustration USB" width="600"/>
+</p>
+
+<p align="center"><i>Illustration d’un script de détection USB sous Linux</i></p>
+
+<p align="center">
+© 2025 <strong>virg736</strong> – Tous droits réservés.<br>
+Reproduction interdite sans autorisation préalable.
+</p>
+
+
+
 ## Sommaire
 
 - [Objectif du projet](#objectif-du-projet)
