@@ -147,6 +147,8 @@ chmod +x simulate_usb.py
 ![Exécution du script `simulate_usb.py`](securite5.PNG) 
 *La clé USB simulée est détectée avec succès par le script*
 
+![Écriture du script `simulate_usb.py`](securescript.PNG)
+*Script Python chargé de détecter la présence de la "clé USB simulée"*
 
 ---
 
