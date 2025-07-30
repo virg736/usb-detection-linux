@@ -1,4 +1,5 @@
 #  Détection et Surveillance des Clés USB sous Linux
+
 ## Sommaire
 
 - [Objectif du projet](#objectif-du-projet)
@@ -16,7 +17,7 @@
 ## Objectif du projet
 
 Ce projet a pour but de détecter et surveiller les périphériques USB sur un système Linux.
-Il est structuré en trois niveaux de difficulté, permettant une montée progressive en compétence :
+Il est structuré en trois niveaux de difficulté, permettant une montée progressive en compétences :
 
 - Lister les périphériques USB connectés
 - Simuler une clé USB pour tester la logique de détection
@@ -33,7 +34,7 @@ Les clés USB sont souvent utilisées comme vecteurs d’attaque :
 - Introduction de malwares (clé infectée)
 - Vol de données
 - Attaques physiques via périphériques déguisés (BadUSB)
-- Intrusion non autorisée dans des environnements sensibles
+- Accès non autorisée dans des environnements sensibles
 
 Il est donc **essentiel de surveiller et détecter** tout périphérique USB connecté à une machine, en particulier sur les postes critiques.
 
@@ -46,7 +47,7 @@ Il est donc **essentiel de surveiller et détecter** tout périphérique USB con
 | Public | Objectifs |
 |---------------------------|-----------|
 | **Étudiants en cybersécurité** | Comprendre les risques USB et créer ses premiers scripts |
-| **Formateurs / enseignants** | Appui pour travaux pratiques gradués (TP) |
+| **Formateurs / enseignants** | Appui pour travaux pratiques encadrés (TP) |
 | **Administrateurs système** | Surveiller les postes sensibles pour des connexions USB |
 | **Pentesters / pros sécurité** | Démontrer les vecteurs d’intrusion physiques |
 
