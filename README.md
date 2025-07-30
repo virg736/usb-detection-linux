@@ -162,15 +162,11 @@ Le script Python s’appuie sur le système d’événements `udev` de Linux pou
 
 ### 📸 Captures d’écran
 
-
 ![Installation et exécution du script](secure8.PNG)
 *Installation de `pyudev` et lancement du script en attente d’une clé USB*
 
 ![Clé détectée (non montée)](secure9.PNG)
 *Détection effective d’une vraie clé USB physique (ex. : /dev/sdb1)*
-
-![Confirmation graphique](secure1.PNG)
-*La clé est bien connectée : elle apparaît dans les périphériques du système*
 
 ---
 
