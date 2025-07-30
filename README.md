@@ -74,6 +74,86 @@ lsblk
 echo -e "\nPermissions sur les périphériques :"
 ls -l /dev/sd*
 
+📸 Capture : secure3.PNG
+
+---
+
+Niveau intermédiaire
+
+Objectif : Simuler la connexion d’une clé USB en utilisant un dossier comme point de montage surveillé.
+
+Script : simulate_usb.py
+
+---
+
+Niveau expert
+
+Objectif : Détecter en temps réel l’insertion d’une vraie clé USB à l’aide de la bibliothèque pyudev.
+
+
+Script : usb_detector.py
+
+📸 Captures associées : secure8.PNG, secure9.PNG
+
+---
+
+Différence entre simulation et clé réelle 
+Critère
+
+Intermédiaire
+
+Expert
+
+
+
+Captures d’écran
+
+
+Les captures se trouvent dans le dossier /captures/ du projet :
+
+secure3.PNG – Affichage des périphériques (débutant)
+
+securite4.PNG, securite5.PNG, securescript.PNG – Simulation clé USB (intermédiaire)
+
+secure8.PNG, secure9.PNG – Détection réelle (expert)
+
+Utilisation des scripts
+
+
+Prérequis
+Python 3 installé
+
+Installer pyudev pour le niveau expert :
+
+pip install pyudev
+
+Lancer les scripts
+# Débutant
+bash usb_devices_info.sh
+
+# Intermédiaire
+python3 simulate_usb.py
+
+# Expert
+python3 usb_detector.p
+
+# Débutant
+bash usb_devices_info.sh
+
+# Intermédiaire
+python3 simulate_usb.py
+
+# Expert
+python3 usb_detector.py
+
+
+Licence
+
+
+Projet libre pour usage pédagogique, personnel ou en formation.
+
+Aucune responsabilité n’est engagée en cas d’utilisation en environnement professionnel sans validation sécurité
+
 
 
 
