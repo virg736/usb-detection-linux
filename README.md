@@ -60,7 +60,7 @@ Il est donc **essentiel de surveiller et détecter** tout périphérique USB con
 
 **Objectif** : Identifier les périphériques USB connectés via des commandes de base.
 
-**Script : `usb_devices_info.sh`**
+**Script :** `usb_devices_info.sh`
 
 bash
 #!/bin/bash
@@ -71,13 +71,11 @@ lsusb
 echo -e "\nPériphériques montés :"
 lsblk
 
-echo -e "\nPermissions sur les périphériques :"
-ls -l /dev/sd*
-
 📸 Captures d’écran :
 
 ![Contenu du script `usb_devices_info.sh`](securite2.PNG)
 *Affichage du script dans Nano*
+
 
 ![Résultat du script `usb_devices_info.sh`](secure3.PNG)
 *Exécution dans le terminal sous Kali Linux*
