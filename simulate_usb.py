@@ -1,3 +1,18 @@
+## 🧪 Simulation d'une clé USB (Python)
+
+Ce script [`simulate_usb.py`](./simulate_usb.py) permet de simuler l'insertion ou le retrait d'une clé USB dans un environnement Linux, en surveillant l'existence d'un dossier (`/media/usb_simulation`).
+
+### ▶️ Utilisation :
+
+```bash
+# Créer le dossier simulant la clé USB
+mkdir /media/usb_simulation
+
+# Lancer le script de surveillance
+python3 simulate_usb.py
+
+
+
 #!/usr/bin/env python3
 import os
 import time
