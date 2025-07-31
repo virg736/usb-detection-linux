@@ -48,7 +48,7 @@ Il est structuré en trois niveaux de difficulté, permettant une montée progre
 
 ---
 
-## Pourquoi la sécurité USB est essentielle
+💡 Pourquoi la sécurité USB est essentielle
 
 Les clés USB sont souvent utilisées comme vecteurs d’attaque :
 
@@ -61,7 +61,7 @@ Il est donc **essentiel de surveiller ** tout périphérique USB connecté à un
 
 ---
 
-ℹ️ ## À propos de l’exécution des scripts
+ℹ️ À propos de l’exécution des scripts
 
 usb_devices_info.sh fonctionne sur toute machine Linux pour lister les périphériques USB connectés.
 
@@ -73,7 +73,7 @@ usb_detector.py nécessite un système Linux avec un port USB physique. Il ne pe
 
 ---
 
-❓ ## Pourquoi ne pas simplement utiliser lsusb ?
+❓ Pourquoi ne pas simplement utiliser lsusb ?
  
 Ce projet ne se limite pas à un simple alias de commande comme lsusb.
 
