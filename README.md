@@ -63,7 +63,7 @@ Les clés USB sont souvent utilisées comme vecteurs d’attaque :
 - Attaques physiques via périphériques déguisés (BadUSB)
 - Accès non autorisé dans des environnements sensibles
 
-Il est donc **essentiel de surveiller** tout périphérique USB connecté à une machine, notamment sur les postes critiques, afin de prévenir tout comportements non autorisés.
+Il est donc **essentiel de surveiller** tout périphérique USB connecté à une machine, notamment sur les postes critiques, afin de prévenir tous comportements non autorisés.
 
 ---
 
