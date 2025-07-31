@@ -98,6 +98,9 @@ lsblk
 ![Résultat du script `usb_devices_info.sh`](secure3.PNG)
 *Exécution dans le terminal sous Kali Linux*
 
+📄 Contenu du script `usb_devices_info.sh`
+![Script débutant](scriptdebutant.PNG)
+
 ---
 
 ### Niveau intermédiaire
