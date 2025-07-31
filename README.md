@@ -248,18 +248,6 @@ Créer des bases de détection automatisée (alertes, journalisation, blocage, e
 
 ---
 
-
-Objectif du projet :
-Sensibiliser à ces risques
-
-Apprendre à détecter automatiquement et en temps réel l’insertion d’un périphérique USB
-
-Créer une base pédagogique pour aller plus loin (alertes, blocage, journalisation…)
-
-Ce projet montre que, même avec un niveau débutant ou intermédiaire, il est possible de mettre en place une surveillance simple mais efficace.
-
----
-
 ## Licence
 
 Le script est publié sous la licence MIT.
