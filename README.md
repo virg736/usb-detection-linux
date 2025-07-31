@@ -220,18 +220,33 @@ Ce projet contient un script Python permettant de détecter l'insertion d'une cl
 
 ## Utilisation des scripts
 
-L’usage des clés USB peut représenter un risque majeur pour la sécurité d’un système, surtout dans des environnements sensibles (entreprises, laboratoires, établissements scolaires, etc.). Voici pourquoi ce projet est important :
+L’usage des clés USB peut représenter un risque majeur pour la sécurité d’un système, en particulier dans des environnements sensibles (entreprises, laboratoires, établissements scolaires, etc.).
 
-⚠️ Risques potentiels liés aux clés USB :
-Propagation de malwares (virus, ransomware, chevaux de Troie)
 
-Vol de données sensibles (exfiltration par simple copier-coller)
 
-Injection de commandes malveillantes (ex : BadUSB)
+Ce projet prend tout son sens dans ce contexte, car il permet :
 
-Accès non autorisé à des systèmes protégés
+🔥 D’identifier les risques liés aux clés USB : propagation de malwares (virus, chevaux de Troie, ransomwares…)
 
-Sabotage et altération de fichiers critiques
+🕵️‍♂️ De détecter les tentatives de vol de données (copier-coller sauvage, extraction manuelle…)
+
+🧨 De simuler ou repérer des attaques physiques (ex : BadUSB)
+
+🚫 De bloquer l’accès non autorisé à un système via des périphériques inconnus
+
+🖥️ De protéger les postes critiques, notamment dans les environnements industriels ou éducatifs
+
+🎓 D’offrir un support pédagogique concret pour :
+
+Apprendre à détecter automatiquement l’insertion ou le retrait d’une clé USB
+
+Créer des bases de détection automatisée (alertes, journalisation, blocage, etc.)
+
+
+
+⚠️ Le script avancé nécessite un environnement avec un port USB réel. Il n’est pas exécutable dans GitHub Actions (cloud).
+
+---
 
 
 Objectif du projet :
@@ -240,7 +255,6 @@ Sensibiliser à ces risques
 Apprendre à détecter automatiquement et en temps réel l’insertion d’un périphérique USB
 
 Créer une base pédagogique pour aller plus loin (alertes, blocage, journalisation…)
-
 
 Ce projet montre que, même avec un niveau débutant ou intermédiaire, il est possible de mettre en place une surveillance simple mais efficace.
 
