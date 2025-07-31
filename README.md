@@ -30,7 +30,7 @@ Usage pédagogique uniquement.
 - [Niveau avancé](#niveau-avancé)
 - [Utilisation des scripts](#utilisation-des-scripts)
 - [Licence](#licence)
-- [FAQ – Questions fréquentes](#faq--questions-fréquentes)
+- [FAQ – Questions fréquentes](#faq---questions-fréquentes)
 
 ---
 
