@@ -30,7 +30,7 @@ Usage pédagogique uniquement.
 - [Niveau avancé](#niveau-avancé)
 - [Utilisation des scripts](#utilisation-des-scripts)
 - [Licence](#licence)
-- [FAQ – Questions fréquentes](#faq---questions-fréquentes)
+- [FAQ](#faq)
 
 ---
 
@@ -283,7 +283,7 @@ Toute reproduction ou réutilisation sans autorisation préalable est interdite.
 
 ---
 
-## ❓ FAQ – Questions fréquentes
+##  FAQ 
 
 ### 💡 Est-ce que ces scripts fonctionnent sous Windows ou macOS ?
 Non. Le projet est conçu pour fonctionner exclusivement sous Linux (testé avec Kali Linux).  
@@ -315,7 +315,7 @@ Mais c’est une bonne base de réflexion pour bâtir une solution plus complèt
 
 ---
 
-**Droits sur les visuels**
+
 
 
 
