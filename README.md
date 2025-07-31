@@ -1,4 +1,4 @@
-#  Détection et Surveillance des Clés USB sous Linux
+le#  Détection et Surveillance des Clés USB sous Linux
 
 <p align="center">
 <img src="linuxusb.PNG" alt="Illustration USB" width="600"/>
@@ -280,7 +280,41 @@ Toute reproduction ou réutilisation sans autorisation préalable est interdite.
 
 
 
+---
 
+## ❓ FAQ – Questions fréquentes
+
+### 💡 Est-ce que ces scripts fonctionnent sous Windows ou macOS ?
+Non. Le projet est conçu pour fonctionner exclusivement sous Linux (testé avec Kali Linux).  
+Les commandes utilisées (comme `lsusb`, `udev`, `mount`, etc.) sont spécifiques à Linux.
+
+---
+
+### 🌐 Pourquoi les scripts ne sont pas exécutables dans GitHub Actions ?
+GitHub Actions n’offre pas d’accès physique aux ports USB.  
+Les scripts doivent être testés sur une machine locale avec du matériel USB réel pour fonctionner correctement.
+
+---
+
+### 🧪 À quoi sert la simulation de clé USB avec un dossier ?
+C’est un moyen simple et pédagogique de tester une détection d’insertion sans matériel.  
+Cela permet aux débutants de comprendre la logique d’un script de surveillance avant de brancher une vraie clé USB.
+
+---
+
+### 🔐 Est-ce que ce projet remplace un antivirus ou un outil de sécurité professionnel ?
+Non. Ce projet a une visée pédagogique. Il ne remplace pas une solution de sécurité.  
+Il est cependant utile pour comprendre les risques liés aux périphériques USB et apprendre à s’en protéger.
+
+---
+
+### 🛑 Puis-je utiliser ce projet pour surveiller les USB dans une entreprise ?
+Ce n’est pas recommandé tel quel. Il faudrait renforcer les scripts (logs, alertes, blocages…) pour un usage professionnel.  
+Mais c’est une bonne base de réflexion pour bâtir une solution plus complète.
+
+---
+
+**Droits sur les visuels**
 
 
 
