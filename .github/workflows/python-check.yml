@@ -21,4 +21,4 @@ jobs:
 
       - name: Run script
         run: |
-          python usb_detector.py
+          timeout 10s python usb_detector.py
