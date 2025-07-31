@@ -189,7 +189,6 @@ chmod +x simulate_usb.py
 ![Script intermédiaire](scriptintermédiaire.PNG)
 *Script Python chargé de détecter la présence d’une "clé USB simulée"*
 
-
 ---
 
 ### Niveau avancé
