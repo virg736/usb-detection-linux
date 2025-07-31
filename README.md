@@ -1,5 +1,13 @@
 # Détection et Surveillance des Clés USB sous Linux
 
+# 🐧 Détection et Surveillance des Clés USB sous Linux
+
+![Présentation](linuxusb.PNG)
+
+![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
+![Licence](https://img.shields.io/badge/license-MIT-green.svg)
+
+
 <p align="center">
 <img src="linuxusb.PNG" alt="Illustration USB" width="600"/>
 </p>
