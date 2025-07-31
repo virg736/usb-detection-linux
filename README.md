@@ -178,6 +178,8 @@ Le script Python s’appuie sur le système d’événements `udev` de Linux pou
 📄 Contenu du script `usb_detector.py`
 ![Script avancé](scriptavancé.PNG)
 *Script Python chargé de détecter une vraie clé USB physique via `pyudev`*
+Ce projet contient un script Python permettant de détecter l'insertion d'une clé USB en temps réel sous Linux.
+⚠️ Ce script nécessite un environnement avec un port USB réel (pas exécutable dans GitHub Actions).
 
 
 ---
