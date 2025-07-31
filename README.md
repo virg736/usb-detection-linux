@@ -43,6 +43,8 @@ Il est structuré en trois niveaux de difficulté, permettant une montée progre
 - Détecter automatiquement une clé USB réelle en temps réel
 
 > Ce projet est conçu à des fins pédagogiques et a été testé dans un environnement **Kali Linux sous VirtualBox**.
+ 
+💡 Idéal pour les débutants souhaitant comprendre comment Linux gère les périphériques USB au niveau système.
 
 ---
 
