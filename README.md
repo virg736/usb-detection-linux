@@ -57,11 +57,12 @@ Les clés USB sont souvent utilisées comme vecteurs d’attaque :
 - Attaques physiques via périphériques déguisés (BadUSB)
 - Accès non autorisée dans des environnements sensibles
 
-Il est donc **essentiel de surveiller et détecter** tout périphérique USB connecté à une machine, en particulier sur les postes critiques.
+Il est donc **essentiel de surveiller ** tout périphérique USB connecté à une machine, notamment sur les postes critiques, afin de prévenir tout comportement non autorisés.
 
 ---
 
-ℹ️ À propos de l’exécution des scripts
+ℹ️ ## À propos de l’exécution des scripts
+
 usb_devices_info.sh fonctionne sur toute machine Linux pour lister les périphériques USB connectés.
 
 simulate_usb.py permet de tester la logique de détection sans clé USB physique, en simulant une insertion via un dossier local.
@@ -72,9 +73,8 @@ usb_detector.py nécessite un système Linux avec un port USB physique. Il ne pe
 
 ---
 
-❓ Pourquoi ne pas simplement utiliser 
-lsusb
- ?
+❓ ## Pourquoi ne pas simplement utiliser lsusb ?
+ 
 Ce projet ne se limite pas à un simple alias de commande comme lsusb.
 
 La commande lsusb affiche uniquement la liste des périphériques connectés à un instant T.
@@ -95,6 +95,7 @@ ou déclencher une surveillance automatisée.
 ## À qui s’adresse ce projet
 
 ### Public visé & Objectifs pédagogiques
+Ce projet pédagogique s'adresse à différents profils, chacun pouvant y trouver un objectif spécifique :
 
 | Public | Objectifs |
 |---------------------------|-----------|
