@@ -23,8 +23,16 @@ Usage pédagogique uniquement.
 
 <p align="center"><strong>Image protégée – Propriété exclusive</strong></p>
 
+----
 
+## 📈 Statistiques
+
+[![Stars](https://img.shields.io/github/stars/virg736/usb-detection-linux?style=social)](https://github.com/virg736/usb-detection-linux)
+[![Forks](https://img.shields.io/github/forks/virg736/usb-detection-linux?style=social)](https://github.com/virg736/usb-detection-linux)
+[![Watchers](https://img.shields.io/github/watchers/virg736/usb-detection-linux?style=social)](https://github.com/virg736/usb-detection-linux)
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=virg736.usb-detection-linux)
 ## Sommaire
+
 
 - [Objectif du projet](#objectif-du-projet)
 - [Pourquoi la sécurité USB est essentielle](#pourquoi-la-sécurité-usb-est-essentielle)
