@@ -25,13 +25,7 @@ Usage pédagogique uniquement.
 
 ----
 
-## 📈 Statistiques
-
-[![Stars](https://img.shields.io/github/stars/virg736/usb-detection-linux?style=social)](https://github.com/virg736/usb-detection-linux)
-[![Forks](https://img.shields.io/github/forks/virg736/usb-detection-linux?style=social)](https://github.com/virg736/usb-detection-linux)
-[![Watchers](https://img.shields.io/github/watchers/virg736/usb-detection-linux?style=social)](https://github.com/virg736/usb-detection-linux)
-![Visitors](https://visitor-badge.laobi.icu/badge?page_id=virg736.usb-detection-linux)
-## Sommaire
+Sommaire 
 
 
 - [Objectif du projet](#objectif-du-projet)
