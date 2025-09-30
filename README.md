@@ -12,7 +12,7 @@
 <p align="center"><i>Illustration d’un script de détection USB sous Linux</i></p>
 
 <p align="center">
-© 2025 <strong>Virginie Lechene</strong> — Tous droits réservés<br>
+© 2025 <strong>Virginie Lechene</strong> - Tous droits réservés<br>
 Reproduction interdite sans autorisation préalable.<br>
 Usage pédagogique uniquement.
 </p>
@@ -21,7 +21,7 @@ Usage pédagogique uniquement.
 <img src="https://licensebuttons.net/l/by-nd/3.0/88x31.png" alt="Creative Commons BY-ND">
 </p>
 
-<p align="center"><strong>Image protégée – Propriété exclusive</strong></p>
+<p align="center"><strong>Image protégée - Propriété exclusive</strong></p>
 
 ----
 
@@ -142,6 +142,7 @@ lsblk
 
 📄 Contenu du script `usb_devices_info.sh`
 ![Script débutant](scriptdebutant.PNG)
+
 
 ---
 
@@ -283,7 +284,7 @@ Toute utilisation non conforme est interdite et relève de la responsabilité ex
 Les visuels, illustrations ou captures présents dans ce dépôt sont la propriété exclusive de l’autrice.
 Toute reproduction ou réutilisation sans autorisation préalable est interdite.
 
-© 2025 Virginie Lechene – Tous droits réservés.
+© 2025 Virginie Lechene - Tous droits réservés.
 
 
 
@@ -297,13 +298,13 @@ Les commandes utilisées (comme `lsusb`, `udev`, `mount`, etc.) sont spécifique
 
 ---
 
-### 🌐 Pourquoi les scripts ne sont pas exécutables dans GitHub Actions ?
+###  Pourquoi les scripts ne sont pas exécutables dans GitHub Actions ?
 GitHub Actions n’offre pas d’accès physique aux ports USB.  
 Les scripts doivent être testés sur une machine locale avec du matériel USB réel pour fonctionner correctement.
 
 ---
 
-### 🧪 À quoi sert la simulation de clé USB avec un dossier ?
+###  À quoi sert la simulation de clé USB avec un dossier ?
 C’est un moyen simple et pédagogique de tester une détection d’insertion sans matériel.  
 Cela permet aux débutants de comprendre la logique d’un script de surveillance avant de brancher une vraie clé USB.
 
@@ -315,11 +316,12 @@ Il est cependant utile pour comprendre les risques liés aux périphériques USB
 
 ---
 
-### 🛑 Puis-je utiliser ce projet pour surveiller les USB dans une entreprise ?
+###  Puis-je utiliser ce projet pour surveiller les USB dans une entreprise ?
 Ce n’est pas recommandé tel quel. Il faudrait renforcer les scripts (logs, alertes, blocages…) pour un usage professionnel.  
 Mais c’est une bonne base de réflexion pour bâtir une solution plus complète.
 
 ---
+
 
 
 
