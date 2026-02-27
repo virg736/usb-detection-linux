@@ -19,7 +19,6 @@
 <img src="https://licensebuttons.net/l/by-nd/3.0/88x31.png" alt="Creative Commons BY-ND">
 </p>
 
-<p align="center"><strong>Image protégée - Propriété exclusive</strong></p>
 
 ----
 
@@ -320,6 +319,7 @@ Ce n’est pas recommandé tel quel. Il faudrait renforcer les scripts (logs, al
 Mais c’est une bonne base de réflexion pour bâtir une solution plus complète.
 
 ---
+
 
 
 
