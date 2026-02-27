@@ -12,9 +12,7 @@
 <p align="center"><i>Illustration d’un script de détection USB sous Linux</i></p>
 
 <p align="center">
-© 2025 <strong>Virginie Lechene</strong> - Tous droits réservés<br>
-Reproduction interdite sans autorisation préalable.<br>
-Usage pédagogique uniquement.
+© 2025 <strong>Virginie Lechene</strong> 
 </p>
 
 <p align="center">
@@ -280,11 +278,12 @@ Toute utilisation non conforme est interdite et relève de la responsabilité ex
 
 ---
 
- **Droits sur les visuels**
-Les visuels, illustrations ou captures présents dans ce dépôt sont la propriété exclusive de l’autrice.
-Toute reproduction ou réutilisation sans autorisation préalable est interdite.
+## 📷 Droits sur les visuels
 
-© 2025 Virginie Lechene - Tous droits réservés.
+Les visuels de ce dépôt sont protégés par la licence CC BY-ND 4.0.
+Attribution obligatoire – Modification interdite.
+
+© 2026 Virginie Lechene
 
 
 
@@ -321,6 +320,7 @@ Ce n’est pas recommandé tel quel. Il faudrait renforcer les scripts (logs, al
 Mais c’est une bonne base de réflexion pour bâtir une solution plus complète.
 
 ---
+
 
 
 
